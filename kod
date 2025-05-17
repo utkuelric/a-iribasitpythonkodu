@@ -1,0 +1,9 @@
+sayiler = [2, 3, 5, 7, 8, 9, 10, 12, 16]  #sayılar
+i = 0                                     #sayı miktarı
+ 
+while i < len(sayiler):  #i nin sayı miktarından az olması gerekli bu yüzden len fonksiyonu
+    if sayiler[i] % 3 == 0:                             #kalan yoksa tam bölünüyordur
+        print("sayınız", sayiler[i], "3'e bölünüyor")
+    i += 1
+else:
+    print("Taranacak sayı kalmadı, döngü bitti.")
